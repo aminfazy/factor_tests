@@ -5,28 +5,7 @@ $GGNFS_BIN_PATH="/home/aminfazy/Documents/work/ggnfs/bin";
 #$GGNFS_BIN_PATH="../../src";
 #$GGNFS_BIN_PATH="../ggnfs.vc/bin";
 #$GGNFS_BIN_PATH="c:/mingw/msys/1.0/home/SamAdmin/ggnfs-0.77.1/src";
-########################################################################
-# factLat.pl
-# Copyright 2004, Chris Monico.
-#
-#   This file is part of GGNFS.
-#   GGNFS is free software; you can redistribute it and/or modify
-#   it under the terms of the GNU General Public License as published by
-#   the Free Software Foundation; either version 2 of the License, or
-#   (at your option) any later version.
-#
-#   GGNFS is distributed in the hope that it will be useful,
-#   but WITHOUT ANY WARRANTY; without even the implied warranty of
-#   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#   GNU General Public License for more details.
-#
-#   You should have received a copy of the GNU General Public License
-#   along with GGNFS; if not, write to the Free Software
-#   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
-########################################################################
-#  This script is known to work with Perl 5.8, and is known not to
-#  work with 5.2. In between - I don't know.
-########################################################################
+
 use Math::BigInt;
 use Math::BigFloat;
 # Bah, this causes a fatal error if GMP BigInt is not available.
