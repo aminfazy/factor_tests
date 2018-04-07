@@ -1,10 +1,3 @@
-#!/usr/bin/perl
-# The path where the binaries are:
-$GGNFS_BIN_PATH="/home/aminfazy/Documents/work/ggnfs/bin";
-# And some other popular choices:
-#$GGNFS_BIN_PATH="../../src";
-#$GGNFS_BIN_PATH="../ggnfs.vc/bin";
-#$GGNFS_BIN_PATH="c:/mingw/msys/1.0/home/SamAdmin/ggnfs-0.77.1/src";
 
 use Math::BigInt;
 use Math::BigFloat;
